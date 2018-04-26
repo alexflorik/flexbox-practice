@@ -1,0 +1,103 @@
+body {
+	background: #fefefe; 
+	margin: 0; 
+	padding: 0;
+	font:1em/1.3em Arial, Tahoma, "Trebuchet MS", sans-serif;
+	color: #272727;
+}
+img {
+	margin: 0; 
+	padding: 0; 
+	vertical-align: middle; 
+	border: none;
+}
+.main {
+	margin: 20px; 
+	border: 1px solid #ccc; 
+	padding: 20px; 
+	background: #fff; 
+	border-radius: 3px;
+}
+
+.bl {
+	padding: 10px; 
+	border:1px solid #ddd; 
+	background: #fefefe; 
+	border-radius: 3px;
+	margin: 20px;
+}
+         
+.main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    flex-flow: row wrap;
+}
+
+.bl {
+    flex: 1 1 300px; text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 5px;
+}
+
+.fl1 {
+    background: #a8eb6f;
+    flex: 1 1 100%;
+}
+
+.fl2 {
+    background: #dffc67;
+}
+
+.fl3{
+    background: #a5e8de;
+}
+
+.fl4{
+    background: #dffc67;
+}
+
+.fl5{
+    background: #a5e8de;
+}
+
+.fl6{
+    background: #a8eb6f;
+    flex: 1 1 100%;
+}
+
+h3 {
+    color: #406cd0;
+    margin: 0 10px 0 0;
+    font-size: 1.1em;
+}
+a.button {
+    background: #406cd0;
+    color: #fff;
+    padding: 5px  10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a.button:hover {
+    background: #c70000;
+}
+.image{
+    margin: 10px;
+    flex: 1 1 200px;
+}
+.image img {
+    width: 100%; 
+    height: auto;
+}
+.text{
+    margin: 10px;
+    flex: 1 1 150px;
+}
